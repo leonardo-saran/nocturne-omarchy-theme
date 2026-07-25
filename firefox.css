@@ -1,0 +1,92 @@
+/* Nocturne Theme for Firefox userChrome.css */
+
+:root {
+  --color00: #000000;
+  --color01: #121212;
+  --color02: #2C2C2E;
+  --color03: #626262;
+  --color04: #8E8E93;
+  --color05: #AEB1B8;
+  --color07: #ffffff;
+  --color08: #ff4040;
+  --color09: #00ffc4;
+  --color0A: #ffff00;
+  --color0D: #0080ff;
+  --color0E: #ff00c4;
+
+  --lwt-accent-color: #000000 !important;
+  --lwt-frame: #000000 !important;
+  --lwt-frame-inactive: #000000 !important;
+  --lwt-toolbar-field-background-color: #121212 !important;
+  --lwt-toolbar-field-color: #ffffff !important;
+  --lwt-toolbar-field-focus: #121212 !important;
+  --lwt-tab-text: #8E8E93 !important;
+  --lwt-selected-tab-background-color: #000000 !important;
+  --toolbar-bgimage: none !important;
+}
+
+/* Background of Main Window, Toolbars & Nav Bar */
+#navigator-toolbox,
+#nav-bar,
+#PersonalToolbar,
+#toolbar-menubar,
+toolbar {
+  background-color: #000000 !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
+/* Tabs Bar */
+#TabsToolbar,
+.tabbrowser-tab {
+  background-color: #000000 !important;
+  color: #8E8E93 !important;
+}
+
+.tab-background[selected="true"],
+.tabbrowser-tab[selected="true"] .tab-background {
+  background-color: #000000 !important;
+  background-image: none !important;
+  border-bottom: 2px solid #0080ff !important;
+}
+
+.tab-label[selected="true"] {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+/* URL Bar & Search Inputs */
+#urlbar-background,
+.urlbar-background {
+  background-color: #121212 !important;
+  border: 1px solid #2C2C2E !important;
+  border-radius: 6px !important;
+}
+
+#urlbar[focused="true"] #urlbar-background,
+.urlbar-background[focused="true"] {
+  border-color: #0080ff !important;
+  box-shadow: 0 0 4px rgba(0, 128, 255, 0.4) !important;
+}
+
+#urlbar-input,
+.urlbar-input {
+  color: #ffffff !important;
+}
+
+/* Sidebar & Popups */
+#sidebar-box,
+#sidebar-header,
+#sidebar-search-container {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-right: 1px solid #2C2C2E !important;
+}
+
+.panel-subview-body,
+panelmultiview {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}

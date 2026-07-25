@@ -1,0 +1,19 @@
+@define-color background-color #000000;
+@define-color border-color #e7e9ea;
+@define-color label #e7e9ea;
+@define-color image #e7e9ea;
+@define-color progress #e7e9ea;
+
+window.background,
+.osd,
+swayosd-window {
+    padding: 10px 15px;
+    border-width: 1px;
+    border-radius: 12px;
+}
+
+progressbar,
+trough {
+    min-height: 8px;
+    background-color: #626262;
+}

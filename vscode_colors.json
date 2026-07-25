@@ -1,0 +1,182 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Nocturne",
+  "type": "dark",
+  "colors": {
+    "foreground": "#ffffff",
+    "disabledForeground": "#8E8E93",
+    "widget.shadow": "#000000",
+    "selection.background": "#ffff00",
+    "descriptionForeground": "#8E8E93",
+    "errorForeground": "#ff4040",
+    "icon.foreground": "#ffffff",
+    "textBlockQuote.background": "#121212",
+    "textBlockQuote.border": "#0080ff",
+    "textCodeBlock.background": "#121212",
+    "textLink.activeForeground": "#ffff00",
+    "textLink.foreground": "#0080ff",
+    "textPreformat.foreground": "#00ffc4",
+    "toolbar.hoverBackground": "#2C2C2E",
+    "toolbar.activeBackground": "#404040",
+    "button.background": "#0080ff",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#0055b3",
+    "checkbox.background": "#121212",
+    "checkbox.foreground": "#ffffff",
+    "dropdown.background": "#121212",
+    "dropdown.listBackground": "#2C2C2E",
+    "dropdown.foreground": "#ffffff",
+    "input.background": "#121212",
+    "input.foreground": "#ffffff",
+    "input.placeholderForeground": "#626262",
+    "scrollbar.shadow": "#000000",
+    "scrollbarSlider.activeBackground": "#8E8E936f",
+    "scrollbarSlider.background": "#2C2C2E6f",
+    "scrollbarSlider.hoverBackground": "#5c5c5c6f",
+    "badge.background": "#0080ff",
+    "badge.foreground": "#ffffff",
+    "progressBar.background": "#0080ff",
+    "list.activeSelectionBackground": "#2C2C2E",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.focusBackground": "#121212",
+    "list.focusForeground": "#ffffff",
+    "list.hoverBackground": "#121212",
+    "list.hoverForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#121212",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.inactiveForeground": "#626262",
+    "activityBarBadge.background": "#ffff00",
+    "activityBarBadge.foreground": "#000000",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#ffffff",
+    "sideBarSectionHeader.background": "#121212",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "minimap.background": "#000000",
+    "editorGroupHeader.tabsBackground": "#121212",
+    "editorGroup.emptyBackground": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.unfocusedActiveBackground": "#000000",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#2C2C2E",
+    "tab.inactiveForeground": "#8E8E93",
+    "tab.hoverBackground": "#121212",
+    "editorPane.background": "#000000",
+    "editor.background": "#000000",
+    "editor.foreground": "#ffffff",
+    "editorLineNumber.foreground": "#626262",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "editorCursor.foreground": "#ffff00",
+    "editor.selectionBackground": "#ffff0040",
+    "editor.inactiveSelectionBackground": "#ffff0020",
+    "editor.selectionHighlightBackground": "#121212",
+    "editor.lineHighlightBackground": "#121212",
+    "editorIndentGuide.background": "#626262",
+    "editorIndentGuide.activeBackground": "#8E8E93",
+    "editorGutter.background": "#000000",
+    "editorWidget.background": "#2C2C2E",
+    "editorWidget.foreground": "#ffffff",
+    "statusBar.background": "#0080ff",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingBackground": "#0080ff",
+    "statusBar.noFolderBackground": "#0080ff",
+    "titleBar.activeBackground": "#121212",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#000000",
+    "titleBar.inactiveForeground": "#8E8E93",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#ffffff",
+    "terminal.ansiBlack": "#404040",
+    "terminal.ansiRed": "#a4a4a4",
+    "terminal.ansiGreen": "#b6b6b6",
+    "terminal.ansiYellow": "#cecece",
+    "terminal.ansiBlue": "#8d8d8d",
+    "terminal.ansiMagenta": "#9b9b9b",
+    "terminal.ansiCyan": "#b0b0b0",
+    "terminal.ansiWhite": "#ececec",
+    "terminal.ansiBrightBlack": "#5c5c5c",
+    "terminal.ansiBrightRed": "#a4a4a4",
+    "terminal.ansiBrightGreen": "#b6b6b6",
+    "terminal.ansiBrightYellow": "#cecece",
+    "terminal.ansiBrightBlue": "#8d8d8d",
+    "terminal.ansiBrightMagenta": "#9b9b9b",
+    "terminal.ansiBrightCyan": "#b0b0b0",
+    "terminal.ansiBrightWhite": "#ffffff"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffff00"
+      }
+    },
+    {
+      "name": "Keywords & Storage",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#0080ff"
+      }
+    },
+    {
+      "name": "Control Flow Keywords",
+      "scope": ["keyword.control", "keyword.control.flow", "keyword.control.import"],
+      "settings": {
+        "foreground": "#ff00c4"
+      }
+    },
+    {
+      "name": "Numbers & Booleans",
+      "scope": ["constant.numeric", "constant.language", "constant.language.boolean"],
+      "settings": {
+        "foreground": "#00ffc4"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#ffc400"
+      }
+    },
+    {
+      "name": "Macros & Preprocessor",
+      "scope": ["entity.name.function.preprocessor", "meta.preprocessor", "keyword.control.directive"],
+      "settings": {
+        "foreground": "#8000c4"
+      }
+    },
+    {
+      "name": "Strings & Character",
+      "scope": ["string", "constant.character"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Functions & Variables",
+      "scope": ["entity.name.function", "variable", "variable.other"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Types & Classes",
+      "scope": ["entity.name.type", "entity.name.class", "support.type"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Tags & Attributes",
+      "scope": ["entity.name.tag", "entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#0080ff"
+      }
+    }
+  ]
+}

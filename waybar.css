@@ -1,0 +1,15 @@
+@define-color foreground #e7e9ea;
+@define-color background #000000;
+* {
+  color: @foreground;
+  font-weight: bold;
+}
+
+window#waybar > box {
+  background-color: @background;
+}
+
+#workspaces button.active {
+    border-bottom: 1px solid @foreground;
+    padding-bottom: 1px;
+}

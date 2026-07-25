@@ -1,0 +1,36 @@
+[window]
+padding.x = 20
+padding.y = 20
+decorations = "none"
+
+[colors.primary]
+foreground = "#ffffff"
+background = "#000000"
+
+[colors.selection]
+text = "#000000"
+background = "#ffff00"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#ffff00"
+
+[colors.normal]
+black   = "#404040"
+red     = "#a4a4a4"
+green   = "#b6b6b6"
+yellow  = "#cecece"
+blue    = "#8d8d8d"
+magenta = "#9b9b9b"
+cyan    = "#b0b0b0"
+white   = "#ececec"
+
+[colors.bright]
+black   = "#5c5c5c"
+red     = "#a4a4a4"
+green   = "#b6b6b6"
+yellow  = "#cecece"
+blue    = "#8d8d8d"
+magenta = "#9b9b9b"
+cyan    = "#b0b0b0"
+white   = "#ffffff"
